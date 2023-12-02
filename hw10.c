@@ -6,9 +6,7 @@ typedef struct city {
 	char country[50];
 	int population;
 } City;
-void ClearLineFromReadBuffer(void) {
-	while (getchar() != '\n');
-}
+
 int main(void) {
 	City cities[3];
 	int i;
